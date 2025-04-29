@@ -27,7 +27,17 @@ This repository contains code and datasets for training and evaluating predictiv
     git clone https://github.com/Gjain234/XLModelsXSDatasets.git
     ```
 ## Running
-You will want to run in the order the files are marked in. Generate weights first, then the complex opt generate weights if you are using that weights style. If you just want the norms weights, no need to run this. Then the generate ranks script, and finally the compare models script. These files should ideally be run in parallel, but depending on your machine that may or may not be possible.
+
+The scripts are intended to be run in the order indicated by their filenames:
+
+1. **Generate weights** using the base script.
+2. If you're using the *complex optimization weights* style, run the corresponding script next.  
+   (If you're only using the *norms-based* weights, you can skip this step.)
+3. Run the **generate ranks** script to compute rankings based on the generated weights.
+4. Finally, run the **compare models** script to evaluate performance across approaches.
+
+These scripts can ideally be run in parallel, but this depends on your machine’s capabilities.
+
 
 ## Notes
 
