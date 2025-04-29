@@ -1,0 +1,33 @@
+# macOS system files
+.DS_Store
+
+# R and RStudio files
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+.Rproj.user/
+*.Rproj
+
+# R package build artifacts
+*.tar.gz
+*.Rcheck/
+
+# R temporary or cache files
+.Rcache/
+*.utf8.md
+*.knit.md
+*.html
+
+# Common temp data files
+*.csv~
+*.tmp
+*.log
+*.bak
+
+# VS Code settings (optional)
+.vscode/
+
+# Local environment/config files
+.env
+
