@@ -1,7 +1,6 @@
 # XLModelsXSDatasets
 
-This repository contains code and datasets for training and evaluating predictive models on employment-related data using optimization techniques.
-
+This repository contains code and datasets for the paper: XL Models for XS datasets: Using X-Learners for Predicting Education Outcomes in the presence of Extra Small Datasets
 ## Contents
 
 - `1_acs_generate_weights.R` / `2_acs_generate_ranks.R` / `3_compare_models.R`: Scripts for generating weights, ranking models, and comparing performance.
