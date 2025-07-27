@@ -1,8 +1,8 @@
 rm(list=ls())
 
-# Set working directory
-setwd("/n/home05/gjain/projects/refugee/GeomatchCode/")
-dir <- paste0("/n/home05/gjain/projects/refugee/GeomatchCode/")
+# Set working directory as needed
+setwd("GeomatchCode/")
+dir <- paste0("GeomatchCode/")
 
 # Source required functions
 source(paste0(dir, "functions/get_acs_data.R"))
