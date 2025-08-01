@@ -5,7 +5,7 @@ This repository contains code and datasets for the paper: XL Models for XS datas
 
 - `1_acs_generate_weights.R` / `2_acs_generate_ranks.R` / `3_compare_models.R`: Scripts for generating weights, ranking models, and comparing performance.
 - `functions/`: Reusable R functions for estimation, prediction, and data handling.
-- `data/`: Education Dataset
+- `data/`: 5 datasets (Synthetic, Education, JTPA, UK Asylum Acceptance, Dissecting Bias Health)
 - `1.5_complex_opt_generate_weights.jl`: Julia script for complex optimization-based weight generation.
 
 ## Setup
