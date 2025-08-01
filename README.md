@@ -1,5 +1,7 @@
 # CTRLYourShift
 
+![CTRLYourShift](ctrl_pic.png)
+
 This repository contains code and datasets for the paper: **XL Models for XS datasets: Using X-Learners for Predicting Education Outcomes in the presence of Extra Small Datasets**
 
 ## Contents
@@ -16,7 +18,7 @@ The repository includes 4 datasets, each requiring specific configuration parame
 
 | Dataset | Dataset Name | Group Variable | Outcome Variable | Data Source |
 |---------|-------------|----------------|------------------|-------------|
-| **Synthetic** | `synthetic` | `group` | `outcome` | Generated synthetic data |
+| **Synthetic** | `synthetic` | `group` | `outcome` | Generated data from `generate_synthetic_data.py`|
 | **Education** | `education` | `STATE` | `Education` | [Educational Outcomes Dataset](https://github.com/socialfoundations/folktables) |
 | **Health** | `health` | `group` | `has_chronic_condition` |[Dissecting Bias Health Dataset](https://gitlab.com/labsysmed/dissecting-bias) |
 | **UK Refugee Asylum** | `uk_refugee_asylum` | `nationality` | `outcome_binary` | [UK Refugee Asylum Dataset](https://www.gov.uk/government/statistical-data-sets/asylum-and-resettlement-datasets#asylum-applications-decisions-and-resettlement) |
