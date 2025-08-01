@@ -10,7 +10,7 @@ This repository contains code and datasets for the paper: **CTRL Your Shift: Clu
 - **Baseline Scripts**: `baselines.R` provides results for JTT and RWG baselines
 - **Functions/**: Reusable R functions for estimation, prediction, and data handling
 - **Data/**: 4 datasets with different characteristics and domains
-- **Julia Scripts**: `generate_weights.jl`, `get_assignment.jl`, `get_reward.jl` for optimization and assignment computation
+- **RWA Calculation**: `get_RWA.R` for computing the RWA score used in the paper for each method
 
 ## Datasets
 
