@@ -1,8 +1,8 @@
 # CTRLYourShift
 
-![CTRLYourShift](ctrl_pic.png)
-
 This repository contains code and datasets for the paper: **CTRL Your Shift: Clustered Transfer Residual Learning for Many Small Datasets**
+
+![CTRLYourShift](ctrl_pic.png)
 
 ## Contents
 
