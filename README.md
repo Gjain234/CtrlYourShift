@@ -1,4 +1,4 @@
-# XLModelsXSDatasets
+# CTRLYourShift
 
 This repository contains code and datasets for the paper: XL Models for XS datasets: Using X-Learners for Predicting Education Outcomes in the presence of Extra Small Datasets
 ## Contents
