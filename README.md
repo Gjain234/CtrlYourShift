@@ -23,7 +23,7 @@ This repository contains code and datasets for the paper: XL Models for XS datas
 
 3. Set up Git (if cloning):
     ```bash
-    git clone https://github.com/Gjain234/XLModelsXSDatasets.git
+    git clone https://github.com/Gjain234/CTRLYourShift.git
     ```
 ## Running
 
