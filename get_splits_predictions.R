@@ -1,15 +1,12 @@
 rm(list=ls())
 
-setwd("/Users/gaurijain/Desktop/GeoMatchCode/cleaned_pipeline")
-dir <- paste0("/Users/gaurijain/Desktop/GeoMatchCode/cleaned_pipeline/")
-
 # Source required functions
-source(paste0(dir, "functions/global_estimator.R"))
-source(paste0(dir, "functions/local_estimator.R"))
-source(paste0(dir, "functions/predict_global.R"))
-source(paste0(dir, "functions/predict_local.R"))
-source(paste0(dir, "functions/grouped_local_estimator.R"))
-source(paste0(dir, "functions/get_data.R"))
+source(paste0("functions/global_estimator.R"))
+source(paste0("functions/local_estimator.R"))
+source(paste0("functions/predict_global.R"))
+source(paste0("functions/predict_local.R"))
+source(paste0("functions/grouped_local_estimator.R"))
+source(paste0("functions/get_data.R"))
 
 # Load required libraries
 require(dplyr)

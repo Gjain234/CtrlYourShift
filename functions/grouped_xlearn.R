@@ -40,8 +40,7 @@ grouped_xlearn <- function(model, training_cohort, backtest_cohort, predictors, 
   if (!file.exists(predictions_file)) {
     # Predict for training cohort using the global model
     if (model == "bart") {
-      probs <- apply(g.out$Model_store$global$yhat.train, 2, pnorm)
-      global_predictions <- colMeans(probs)
+      global_predictions <- g.out$Model_store$global$yhat.train.mean
     } else if (model == "ranger") {
       global_predictions <- g.out$Model_store$global$predictions
     } else {
